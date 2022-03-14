@@ -34,8 +34,7 @@ const twemoji: {
     fromCodePoint(hexCodePoint: string): string;
     toCodePoint(utf16surrogatePairs: string): string;
   };
-  parse(node: HTMLElement | string, options?: TwemojiOptions): void;
+  parse(node: HTMLElement | string, options?: TwemojiOptions): string;
 };
 
 export default twemoji;
-
